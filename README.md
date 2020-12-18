@@ -1,18 +1,20 @@
 # DivideAFile
-Divides a file into multiple files.
-Could be useful if you use FAT32 file system and want to transfer files that are larger than 4GB.
+A command-line based utility program that divides a file into multiple files.
+Could be useful if you use FAT32 file system and want to transfer files to it that are larger than 4GB.
 
-## Requirements
+---
+
+## Requirements:
 * Requires C compiler (Tested on GCC compiler)
 
 ---
 
-## Installation
+## Compilation:
 * Compile it using the C compiler. For example: `gcc DivideAFile.c -o DivideAFile`
 
 ---
 
-## Usage
+## Usage:
 ```
  [/P | /C]
 
